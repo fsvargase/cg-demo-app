@@ -7,6 +7,7 @@ import { Link } from 'components/link';
 import { FaPlayCircle } from 'react-icons/fa';
 import BannerBG from 'assets/bannerBg.png';
 import BannerThumb from 'assets/banner-thumb.png';
+import InstallPWA from './../components/install-pwa';
 
 import client1 from 'assets/sponsor/paypal.svg';
 import client2 from 'assets/sponsor/google.svg';
@@ -51,9 +52,7 @@ export default function Banner() {
             guidelines ever.
           </Text>
           <Flex>
-            <Button variant="whiteButton" aria-label="Instalr App">
-              Instalar App
-            </Button>
+            <InstallPWA/>
             <>
               <ModalVideo
                 channel="youtube"
