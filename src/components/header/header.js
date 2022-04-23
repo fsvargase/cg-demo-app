@@ -8,6 +8,7 @@ import LogoWhite from 'assets/logo.png';
 import { DrawerProvider } from '../../contexts/drawer/drawer.provider';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
+import InstallPWA from './../install-pwa';
 
 export default function Header({ className }) {
   return (
@@ -31,15 +32,7 @@ export default function Header({ className }) {
               </Link>
             ))}
           </Flex>
-
-          <Button
-            className="donate__btn"
-            variant="secondary"
-            aria-label="Instalar App"
-          >
-            Instalar App
-          </Button>
-
+          <InstallPWA/>
           <MobileDrawer />
         </Container>
       </header>
