@@ -8,9 +8,10 @@ const nextConfiguration = {
 module.exports = withPlugins([
   [withPWA, {
     pwa: {
-    dest: 'public',
-    register:true,
-    skipWaiting:true,
+      disable: process.env.NODE_ENV === 'development',
+      //dest: 'public',
+      register: true,
+      sw: '/sw.js'
     }}],
     [optimizedImages], nextConfiguration
 ]);
