@@ -1,2 +1,3 @@
 # cg-demo-app
-Demo para Currier Guayaquil App-Nextjs
+Demo para Courier Guayaquil App-Nextjs
+Implementando PWA para Courier Guayaquil
