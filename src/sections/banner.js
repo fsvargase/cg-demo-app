@@ -32,7 +32,6 @@ const data = [
     title: 'dropbox',
   },
 ];
-
 export default function Banner() {
   const [videoOpen, setVideoOpen] = useState(false);
   const handleClick = (e) => {
